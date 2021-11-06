@@ -15,7 +15,7 @@ For more information, please contat me at:
 Aklilu Mandefro,
 bepositive2712@yahoo.com
 https://volunteer-tech.com
-Linkedin: - linkedin.com/in/aklilu-mandefro-messele-8a3681194
+Linkedin:linkedin.com/in/aklilu-mandefro-messele-8a3681194 , 
 Gondar, Ethiopia
 
 ==================================================================================
