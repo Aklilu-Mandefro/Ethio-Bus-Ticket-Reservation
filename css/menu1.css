@@ -1,0 +1,152 @@
+#menu1 {
+	width: 1098px;
+	margin: 350px auto;
+	border: 1px solid #222;
+	background-color: #800020;
+
+	border-top-left-radius:5px;
+	box-shadow: 0 1px 1px #777;
+	
+}
+#menu1, #menu1 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu1:before,
+#menu1:after {
+	content: "";
+	display: table;
+}
+
+#menu1:after {
+	clear: both;
+}
+
+#menu1 {
+	zoom:1;
+}
+#menu1 li {
+	float: left;
+        
+        margin-left:0px;
+	border-right: 1px solid;
+	box-shadow: 1px 0 0 #444;
+	position: relative;
+        font:20pt Times new roman, Helvetica, sans-serif;
+}
+
+#menu1 a {
+	float: left;
+	padding: 12px 30px;
+	color:white;
+	text-transform: uppercase;
+	font: bold 12px Times New Roman, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+}
+
+#menu1 li:hover > a {
+	color: black;
+        background: #FF8519;
+        border-radius: 5px ;
+}
+
+*html #menu li a:hover { /* IE6 only */
+	color: black;
+}
+#menu1 ul {
+	margin: 20px 0 0 0;
+	_margin: 0; /*IE6 only*/
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	z-index: 100;    
+	background:royalblue;	
+
+	box-shadow: 0 -1px 0 rgba(255,255,255,.3);	
+	border-radius: 3px;
+	transition: all .2s ease-in-out;  
+        
+}
+
+#menu1 li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+}
+
+#menu1 ul ul {
+	top: 0;
+	left: 150px;
+	margin: 0 0 0 20px;
+	_margin: 0; /*IE6 only*/
+	box-shadow: -1px 0 0 rgba(255,255,255,.3);		
+}
+
+#menu1 ul li {
+	float: none;
+	display: block;
+	border: 10;
+	_line-height: 0; /*IE6 only*/
+	box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+        font:15pt Times new roman, Helvetica, sans-serif;
+}
+
+#menu1 ul li:last-child {   
+	box-shadow: none;    
+}
+
+#menu1 ul a {    
+	padding: 10px;
+	width: 125px;
+	_height: 10px; /*IE6 only*/
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+}
+
+#menu1 ul a:hover {
+        
+	background-color: #FF8519;
+
+}
+#menu1 ul li:first-child > a {
+	border-radius: 3px 3px 0 0;
+}
+
+#menu1 ul li:first-child > a:after {
+	content: '';
+	position: absolute;
+	left: 40px;
+	top: -6px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #444;
+}
+
+#menu1 ul ul li:first-child a:after {
+	left: -6px;
+	top: 50%;
+	margin-top: -6px;
+	border-left: 0;	
+	border-bottom: 6px solid transparent;
+	border-top: 6px solid transparent;
+	border-right: 6px solid #3b3b3b;
+}
+
+#menu1 ul li:first-child a:hover:after {
+	border-bottom-color: green; 
+}
+
+#menu1 ul ul li:first-child a:hover:after {
+	border-right-color: #0299d3; 
+	border-bottom-color: transparent; 	
+}
+
+#menu1 ul li:last-child > a {
+	border-radius: 0 0 3px 3px;
+} 

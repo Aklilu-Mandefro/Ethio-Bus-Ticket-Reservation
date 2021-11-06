@@ -1,0 +1,44 @@
+
+  .span12 {
+    width: 1170px;
+  }
+  .span11 {
+    width: 1070px;
+  }
+  .span10 {
+  	
+  	padding-left: 20px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	background:royalblue;
+    width: 1080px;
+  }
+  .span9 {
+    width: 870px;
+  }
+  .span8 {
+    width: 770px;
+  }
+  .span7 {
+    width: 670px;
+  }
+  .span6 {
+    width: 480px;
+  }
+  .span5 {
+    width: 470px;
+  }
+  .span4 {
+    width: 370px;
+  }
+  .span3 {
+    width: 270px;
+  }
+  .span2 {
+    width: 170px;
+  }
+  .span1 {
+    width: 70px;
+    background:linear-gradient(#fafafa,yellow,#26d9b5);
+  }
+  

@@ -1,0 +1,16 @@
+
+UL#ariext65 LI A{font-size:12px;font-weight:normal;text-transform:none;text-align:left;}UL#ariext65 LI A{background:#336666 none;}UL#ariext65 LI A{color:#ffffff;}
+#marqueecontainer {position: relative;width:100%;height:450px;overflow: hidden;padding: 0px;padding-left: 0px;background-color:white;}
+#vmarquee {position: absolute; width:100%; font-size:14px;}
+#vmarquee h3 {text-align: center; color:#000000; font-size:100%; font-style:normal; font-weight:700;padding-top:6px; width:50%;}
+#vmarquee p {color:green; font-weight:normal;font-style:normal;text-align:left;}
+#vmarquee p a {color:#6F2222;}
+#vmarqueesmall {text-align: center;color:#666666;font-size:85%;}
+#showplus_images_sampledata_fruitshop .showplus { margin-right:230px; }
+#showplus_images_sampledata_fruitshop .showplus-thumbnails { height:100px; left:auto; right:-230px; top:0; width:230px; }
+#showplus_images_sampledata_fruitshop .showplus-thumbnails ul { height:10000px; width:210px; }
+#showplus_images_sampledata_fruitshop { border-style:groove; border-color:#2B2BFF; height:300px; width:930px; }
+#showplus_images_sampledata_fruitshop .showplus, .showplus-images { height:300px; width:700px; }
+#showplus_images_sampledata_fruitshop .showplus-images span { background-color:#336666; }
+
+UL#ariext34 LI A{font-size:12px;font-weight:normal;text-transform:none;text-align:left;}UL#ariext34 LI A:hover,UL#ariext34 LI A:focus,UL#ariext34 LI A.ux-menu-link-hover{background:#003366 none;}UL#ariext34 LI A.current{background:#003366 none;}UL#ariext34 LI UL.ux-menu-sub A{font-size:12px;font-weight:normal;text-transform:none;text-align:left;}UL#ariext34 LI UL.ux-menu-sub A:hover,UL#ariext34 LI UL.ux-menu-sub A:focus,UL#ariext34 LI UL.ux-menu-sub A.ux-menu-link-hover{background:#003366 none;}UL#ariext34 LI UL.ux-menu-sub A.current{background:#336666 none;}

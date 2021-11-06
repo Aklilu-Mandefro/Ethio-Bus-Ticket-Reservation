@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+	margin:0;
+	font-family:Georgia, seri;
+	size:12px;	
+}
+#top{
+	margin-top:0;
+	background:#03327e;
+	width:100%;
+	}
+#top div{
+	width:1050px;
+	color:#FFF;
+	text-align:right;
+	margin:0 auto;
+	padding:10px;
+	background:#03327e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+#admin{
+	background:#800020;
+	width:1050px;
+	margin:0 auto;
+	padding-top:14px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:14px;
+	height:600px;
+	border-radius:15px;
+	/*box-shadow:#0CF 2px 2px 2px 2px; use for 3D div */
+}
+#lmain{
+	background:gray;
+	padding-top:2px;
+	padding-left:5px;
+	font-size:36px;
+	color:#FFF;
+	text-align:center;	
+	width:200px;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	padding-left:0;
+	float:left;
+	height:595px;
+	border-bottom-left-radius:10px;
+}
+#leftmanu{
+	background:#2b79b9;
+	height:485px;
+	width:180px;
+	border-radius:8px;
+	margin-left:14px;
+	margin-top:20px;
+	text-align:left;
+	text-indent:15px;
+	padding-top:5px;
+
+}
+#leftmanu div{
+	margin-top:5px;
+	background:#2b79b9;
+	height:30px;
+	border-bottom:#333 1px dashed;
+	
+}
+/*#leftmanu div:hover{
+	background:#333;
+	color:#FFF;	
+	height:30px;
+}*/
+#leftmanu div a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+	width:180px;
+	text-align:left;
+	color:white;
+}
+#leftmanu div a:hover{
+	color:white;
+	background-color:#FF8519;
+	font-size:14px;
+	text-transform:uppercase;
+}
+#leftmanu div a:active{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+	text-align:left;
+	text-transform:lowercase;
+	color:#9D0000;
+}
+
+
+#rmain{
+	background:#2e2e2e;
+	padding:0;
+	width:850px;
+	float:right;	
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;	
+}
+#pic_manu{
+	height:47px;
+	background:#2e2e2e;
+	border-bottom-left-radius:15px;
+	padding:0;
+}
+#contents{
+	background:#2e2e2e;
+	border-bottom-right-radius:10px;
+	height:513px;
+	margin-top:37px;
+	margin-left:5px;
+	width:840px;	
+}
+#informations{
+	background:#CECECE;
+	height:481px;
+	width:832px;
+	padding-top:5px;
+	margin-top:15px;
+	border-radius:8px;
+	border:#333 1px solid;
+}
+#in_informations{
+	background:#CECECE;
+	height:460px;
+	width:815px;
+	margin-left:10px;
+}
+.clear{
+	clear:both;
+	padding:0;
+	margin:0;
+	height:0;
+}

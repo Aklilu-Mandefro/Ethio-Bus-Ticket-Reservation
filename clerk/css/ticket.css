@@ -1,0 +1,40 @@
+#top_style{
+	width:800px;
+	margin-left:10px;
+	height:40px;
+	}
+	#style_informations{
+	width:775px;
+	height:420px;
+	border:1px solid #0f0e02;
+	margin:0 auto;
+	padding-left:20px;
+	border-radius:5px;
+	}
+	#top_style_text{
+	width:400px;
+	height:40px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:25px;
+	color:#34282c;
+	float:left;
+	}
+	#button1:hover{
+	background:#FF8519 ;
+	color:white;
+}
+#button1{
+	width: 100px;
+	height: 35px;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+	background: #34282c;
+	font-family: times new roman;
+	
+}
+#ttcancel
+{
+border-radius:10px;
+background:#34282c;
+}
